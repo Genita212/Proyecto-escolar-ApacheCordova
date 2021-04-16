@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="../css/admi/alumno.css">
+	<title>Alumnos</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+
+    <script src="../js/admi/altaAlumno.js"></script>
+</head>
+<body>
+	<h1>Alta Alumno</h1>
+	
+	<div class="app" style="text-align: center;">
+		<div class="container">
+			<p>Datos Generales</p>
+			<input type="text" class="matricula" id="matricula" placeholder="Matricula" required>
+			<input type="text" class="curp" id="curp" placeholder="CURP" required>
+			<input type="text" class="nombre" id="nombre" placeholder="Nombre(s)" required>
+			<input type="text" class="apellidos" id="apellidos" placeholder="Apellido(s)" required>
+			</p>
+		</div>
+	
+		<div class="container">
+			<p><b>Alta Usuario Alumno</b></p>
+			<input type="email" class="correo" id="correo"  placeholder="Correo Electrónico" required>
+			<input type="password" class="passw" id="passw" placeholder="Password" required>
+			<input type="text" class="tipouser" id="tipouser" value="Alumno" readonly>
+
+			<input type="submit" value="Registrar" class="ingresarAlumno">
+		</div>
+	</div>
+	
+</body>
+</html>

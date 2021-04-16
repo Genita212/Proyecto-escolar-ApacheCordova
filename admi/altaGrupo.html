@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="../css/admi/grupo.css">
+	<title>Alta Grupos</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+
+    <script src="../js/admi/grupo.js"></script>
+</head>
+<body>
+
+	<h1>Alta Grupo</h1>
+	
+
+	<div class="app" style="text-align: center;">
+		<div class="container" id="yeardiv">
+			<p><b>Año escolar</b></p>
+			<input type="number" class="year" placeholder="Ingresa año escolar" required>
+			<input type="submit" value="Registrar Año" class="ingresarYear">
+		</div>
+
+		<div class="container" id="grupodiv">
+			<p>Grupos</p>
+			<input type="text" class="grupo" placeholder="Ingresa letra de grupo" required>
+			<input type="submit" value="Registrar Grupo" class="ingresarGrupo">
+		</div>
+	</div>
+</body>
+</html>
