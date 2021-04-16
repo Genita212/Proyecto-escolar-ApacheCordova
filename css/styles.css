@@ -1,0 +1,25 @@
+.jumbotron {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+    background-color: hsla(210, 17%, 93%, 0.021);
+    border-radius: .3rem;
+    text-align: center;
+    color: white;
+    
+}
+table th {
+    background: rgba(65, 62, 62, 0.5);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(45, 184, 191, 0.445);
+}
+body{
+    background-color: #00000033;
+}
+.table{
+    font-size: 17px;
+    color: white;
+    font-family: arial, sans-serif;
+}

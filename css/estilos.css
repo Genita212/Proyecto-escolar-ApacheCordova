@@ -1,0 +1,159 @@
+body{
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos globales */
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+header{
+    background-color: #f4f4f4;
+    color: rgb(27, 114, 6);
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: 8px solid #97d019;
+}
+header a{
+    color: #24282b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #marca{
+    float: left;
+}
+header #marca h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .resaltado, header .actual a{
+    color: #6cbb14;
+    font-weight: bold;
+}
+header a:hover{
+    color: #6cbb14;
+    font-weight: bold;
+}
+ /* Cabecera con imagen */
+#cabecera{
+    min-height: 400px;
+    background: url('../img/cabecera.png') no-repeat;
+    background-size: cover;
+}
+ /* Formulario boletin */
+#boletin{
+    padding: 15px;
+    color: white;
+    background: #f4f4f4;
+}
+#boletin h1{
+    float: left;
+}
+#boletin form{
+    float: right;
+    margin-top: 15px;
+}
+
+/* Cajas */
+#cajas{
+    margin-top: 20px;
+}
+
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#cajas .caja img{
+    width: 100px;
+}
+
+#cajas .caja:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+/*Lateral*/
+aside#lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.oscuro{
+    padding: 15px;
+    background-color: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+
+}
+
+/* Footer pie de pagina */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1293d4;
+    text-align: center;
+}
+
+
+/* Media queries */ 
+@media(max-width: 768px){
+    header #marca,
+    header nav,
+    header nav li,
+    #boletin h1,
+    #boletin form,
+    #cajas .caja
+    article#main-col,
+    aside#lateral{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+    #boletin h1{
+        margin-top: 40px;
+    }
+    #boletin button{
+        display: block;
+        width: 100%;
+    }
+    #boletin form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
