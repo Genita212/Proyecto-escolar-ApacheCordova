@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+    <script src="js/loginprofesor.js"></script>
+    <link rel="stylesheet" href="css/logprofe.css">
+	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/admi/alumno.css">
+    <title>Login Profesor</title>
+</head>
+<body>
+	
+
+    <div id="login_div" class="main-div">
+		<img src="img/avatar.png" class="avatar">
+		<h1>Login Profesor</h1>
+		<input type="email" placeholder="Email" id="email" />
+		<input type="password" placeholder="Password" id="passw" />
+			<p></p>
+		 <input value="Ingresar" type="submit" class="button" id="btnIngresar">
+		 <center><a href="index.html">Menú Principal</a></center>
+	</div>
+
+    <div id="user_div" class="loggedin-div">
+		<h2><a href="logiprofe.html" class="active" id="active"><b>!</b></a></h2>
+		<header>
+        <input href="javascript:void(0);" type="checkbox" id="btn-menu"  onclick="myFunction()"></a>
+        <label for="btn-menu"><i class="fa fa-bars"></i></label>
+		<a href="logiprofe.html" class="active" id="active"><b> </b></a>
+		
+
+		 	<nav class="menu" id="myLinks"> 
+				  <ul>
+					<li><a id="alumno" onclick="cambio();"><span class="icon-user"></span>Alumnos</a></li>
+					<li><a id="calificacion" onclick="cambio();"><span class="icon-playlist_add_check"></span>Calificaciones</a></li>
+					<li><a id="edical" onclick="cambio();"><span class="icon-playlist_add_check"></span>Editar Calificaciones</a></li>
+					<li><a id="grupo" onclick="cambio();"><span class="icon-groups"></span>Grupos</a></li>
+					<li><a id="modulo" onclick="cambio();"><span class="icon-account_tree"></span>Modulos</a></li>
+					<input type="submit" value="Cerrar Sesion" class="button" id="btnsalir">			
+				</ul>
+			  </nav>
+			  <header>	
+	</div>
+
+	<center>
+		<div id="tablilla">
+			<table id="tablaDatos">
+				<tr>
+					<th colspan="2" style="text-align: center;">Bienvenido Profesor</th>
+				</tr>
+				<tr>
+					<th>Numero de Empleado: </th>
+					<td id="NumEmpleadoProfesor"></td>
+				</tr>
+				<tr>
+					<th>Nombre: </th>
+					<td id="NombreAdmi"></td>
+				</tr>
+				<tr>
+					<th>Correo Electrónico: </th>
+					<td id="CorreoAdmi"></td>
+				</tr>
+				</table>
+		</div>
+		<br>
+		<div id="informacion">
+			<p><b id="estAdmo"></b></p>
+			<p>Todo el que recuerda su propia educación, recuerda a sus maestros, no los métodos o técnicas. El maestro es el corazón del sistema educativo.</p>
+			<p>El profesor mediocre habla. El buen profesor explica. El gran profesor demuestra. Pero el profesor ideal inspira.</p>
+</div>
+	</center>
+
+
+	<iframe id="content" src="img/AdmiMenu.jpg" allowtransparency="1" scrolling="auto" ></iframe>
+	<div id="mostrarDatos"></div>
+
+	
+	<link rel="stylesheet" type="text/css" href="css/indexAdmi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+</html>

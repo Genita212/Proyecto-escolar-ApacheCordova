@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+    <script src="js/loginalumno.js"></script>
+    <link rel="stylesheet" href="css/loalum.css">
+	<link rel="stylesheet" href="fonts/style.css">
+    <title>Login Alumno</title>
+</head>
+<body>
+    <div id="login_div" class="main-div">
+		<img src="img/avatar.png" class="avatar">
+		<h1>Login Alumnos</h1>
+		<input type="email" placeholder="Email" id="email" />
+		<input type="password" placeholder="Password" id="passw" />
+			<p></p>
+		 <input value="Ingresar" type="submit" class="button" id="btnIngresar">
+		<center><a href="index.html">Menú Principal</a></center>
+	</div>
+
+    <div id="user_div" class="loggedin-div">
+		<h2><a href="loginalumno.html" class="active" id="active"><b>!</b></a></h2>
+		<header>
+        <input href="javascript:void(0);" type="checkbox" id="btn-menu"  onclick="myFunction()"></a>
+        <label for="btn-menu"><i class="fa fa-bars"></i></label>
+		<a href="loginalumno.html" class="active" id="active"><b> </b></a>
+
+		 	<nav class="menu" id="myLinks"> 
+				  <ul>
+					<li><a id="Calificacion" onclick="cambio();"><span class="icon-playlist_add_check"></span>Calificaciones</a></li>
+					<li><a id="Contprof" onclick="cambio();"><span class="icon-contact_phone"></span>Contacto con Profesores</a></li>
+					<li><a id="Modulos" onclick="cambio();"><span class="icon-account_tree"></span>Modulos</a></li>
+					<input type="submit" value="Cerrar Sesion" class="button" id="btnsalir">
+				</ul>
+			  </nav>
+			  <header>	
+	</div>
+	<iframe id="content" src="img/AdmiMenu.jpg" allowtransparency="1" scrolling="auto" ></iframe>
+	<div id="mostrarDatos"></div>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<center>
+		<div id="tablilla">
+			<table id="tablaDatos">
+				<tr>
+					<th colspan="2" style="text-align: center;">Bienvenido Alumno</th>
+				</tr>
+				<tr>
+					<th>Matricula: </th>
+					<td id="Matricula"></td>
+				</tr>
+				<tr>
+					<th>Nombre: </th>
+					<td id="NombreAdmi"></td>
+				</tr>
+				<tr>
+					<th>Correo Electrónico: </th>
+					<td id="CorreoAdmi"></td>
+				</tr>
+				<tr>
+					<th>Tipo: </th>
+					<td id="TipoUsuario"></td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="informacion">
+			<p><b id="estAdmo"></b></p>
+			<p>Debes tener siempre fría la cabeza, caliente el corazón y larga la mano.</p>
+			<p>--Confucio</p>
+			<p>Para cualquier duda o aclaración de sus datos, favor de contactar al encargado del sistema para la corrección inmediata. Por su atención, gracias</p>
+		</div>
+	</center>
+
+
+	
+</body>
+</html>
