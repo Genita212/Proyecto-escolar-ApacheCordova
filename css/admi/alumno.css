@@ -1,0 +1,236 @@
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email], select{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 600px;
+  background: #24303c8c;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #fff;
+}
+
+p{
+  margin: 0;
+  padding: 0 0 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+h2{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.numEmpleado{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.matricula{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.curp{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.nombre{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.apellidos{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.correo{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.passw{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.tipouser{
+  width: 100%;
+  background: #24303c91;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0d51e4;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.container .ingresarAlumno{
+  width: 100%;
+  background: #0d51e493;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.container .ingresarAlumno:hover{
+  cursor: pointer;
+  background: rgba(17, 224, 28, 0.582);
+  color: #000;
+}
+
+.container .ingresarProfesor{
+  width: 100%;
+  background: #0d51e493;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.container .ingresarProfesor:hover{
+  cursor: pointer;
+  background: rgba(17, 224, 28, 0.582);
+  color: #000;
+}
+
+
+
+
+.container,  .mostrar{
+  padding: 16px;
+  text-align: center;
+  border-radius: 10%;
+  margin-top: 5px;
+}
+
+#header{
+  margin: auto;
+  text-align: center;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+.nav li a{
+  width: 50%;
+  background-color: rgba(0, 0, 255, 0.459);
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.nav li a:hover{
+  background-color: rgba(17, 224, 28, 0.582);
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover>ul{
+  display: grid;
+}
+
+.nav li ul li{
+  position: relative;
+}
+
+.nav>.submenu{
+  float: left;
+  background-color: rgba(47, 51, 48, 0.541);
+}
+
+#content{
+  margin-top: 5px;
+  width: 100%;
+  height: 1900px; 
+  overflow: hidden;
+}
+
